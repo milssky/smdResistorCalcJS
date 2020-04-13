@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор сопротивления SMD-резисторов</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <section class="calc">
+        <table>
+            <tbody>
+                <tr><td class="td">Введите код сопротивления</td></tr>
+                <tr class="tr"><td><input border-style="none" autocomplete="off" type="text" name="code" id="smd-code" maxlength="4" title="Введите код SMD резистора"></td>    </tr>
+                <tr><td class="td">Cопротивление: <span id="result">0 Ом</span></td></tr>
+            </tbody>
+        </table>
+    </section>
+    <script src="calc.js"></script>
+</body>
+</html>

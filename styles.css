@@ -1,0 +1,63 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin:0px;
+    padding:0px;
+    font-size: 14px;
+    font-family:Arial,Verdana,Helvetica,sans-serif;
+    border-style:none;
+}
+
+table {
+    margin-left: auto;
+    margin-right:  auto;
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
+
+tr {
+    height: 50px;
+}
+
+.tr {
+    height: 120px;
+}
+
+.td {
+    font-size: 25px;
+}
+
+.calc {
+    padding: 15px 25px 15px 25px;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin: auto;
+    max-width: 500px;
+}
+
+
+#smd-code {
+    height: 90px;
+    font-size: 60px;
+    width: 200px;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 10px;
+    color:#ffffdd;
+    padding-bottom:5px;
+    border: none;
+}
+
+#result {
+    font-size: 20px;
+    color: crimson;
+    font-weight: 700;
+}
